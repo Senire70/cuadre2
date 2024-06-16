@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>cuadre</title>
+</head>
+
+<body>
+    <header>
+        <div class="name"></div>
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <h1>Cuadre</h1>
+        <div class="user">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="numbers">
+            <h2>Numeraciones</h2>
+            <div class="lado1">
+                <div class="container gasoline-p_container">
+                    <div class="start">
+                        <label for="gasoline-p_start">Start</label>
+                        <input type="number" step="0.001" name="gasoline-p_start" id="gasoline-p_start">
+                    </div>
+
+                    <div class="end">
+                        <label for="gasoline-p_end">End</label>
+                        <input type="number" step="0.001" name="gasoline-p_end" id="gasoline-p_end">
+                    </div>
+
+                    <div class="price">
+                        <label for="gasoline-p_price">Precio/Galón</label>
+                        <input type="number" step="0.001" name="gasoline-p_price" id="gasoline-p_price">
+                    </div>
+                </div>
+
+                <div class="container gasoline-r_container">
+                    <div class="start">
+                        <label for="gasoline-r_start">Start</label>
+                        <input type="number" step="0.001" name="gasoline-r_start" id="gasoline-r_start">
+                    </div>
+
+                    <div class="end">
+                        <label for="gasoline-r_end">End</label>
+                        <input type="number" step="0.001" name="gasoline-r_end" id="gasoline-r_end">
+                    </div>
+
+                    <div class="price">
+                        <label for="gasoline-r_price">Precio/Galón</label>
+                        <input type="number" step="0.001" name="gasoline-r_price" id="gasoline-r_price">
+                    </div>
+                </div>
+
+                <div class="container diesel-r_container">
+                    <div class="start">
+                        <label for="diesel-r_start">Start</label>
+                        <input type="number" step="0.001" name="diesel-r_start" id="diesel-r_start">
+                    </div>
+
+                    <div class="end">
+                        <label for="diesel-r_end">End</label>
+                        <input type="number" step="0.001" name="diesel-r_end" id="diesel-r_end">
+                    </div>
+
+                    <div class="price">
+                        <label for="diesel-r_price">Precio/Galón</label>
+                        <input type="number" step="0.001" name="diesel-r_price" id="diesel-r_price">
+                    </div>
+                </div>
+                <div class="container diesel-ul_container">
+                    <div class="start">
+                        <label for="diesel-ul_start">Start</label>
+                        <input type="number" step="0.001" name="diesel-ul_start" id="diesel-ul_start">
+                    </div>
+
+                    <div class="end">
+                        <label for="diesel-ul_end">End</label>
+                        <input type="number" step="0.001" name="diesel-ul_end" id="diesel-ul_end">
+                    </div>
+
+                    <div class="price">
+                        <label for="diesel-ul_price">Precio/Galón</label>
+                        <input type="number" step="0.001" name="diesel-ul_price" id="diesel-ul_price">
+                    </div>
+                </div>
+            </div>
+            <div class="lado2">
+
+                <div class="container gasoline-p_container">
+                    <div class="start">
+                        <label for="gasoline-p_start2">Start</label>
+                        <input type="number" step="0.001" name="gasoline-p_start2" id="gasoline-p_start2">
+                    </div>
+
+                    <div class="end">
+                        <label for="gasoline-p_end2">End</label>
+                        <input type="number" step="0.001" name="gasoline-p_end2" id="gasoline-p_end2">
+                    </div>
+                </div>
+
+                <div class="container gasoline-r_container">
+                    <div class="start">
+                        <label for="gasoline-r_start2">Start</label>
+                        <input type="number" step="0.001" name="gasoline-r_start2" id="gasoline-r_start2">
+                    </div>
+
+                    <div class="end">
+                        <label for="gasoline-r_end2">End</label>
+                        <input type="number" step="0.001" name="gasoline-r_end2" id="gasoline-r_end2">
+                    </div>
+
+                </div>
+
+                <div class="container diesel-r_container">
+                    <div class="start">
+                        <label for="diesel-r_start2">Start</label>
+                        <input type="number" step="0.001" name="diesel-r_start2" id="diesel-r_start2">
+                    </div>
+
+                    <div class="end">
+                        <label for="diesel-r_end2">End</label>
+                        <input type="number" step="0.001" name="diesel-r_end2" id="diesel-r_end2">
+                    </div>
+                </div>
+
+                <div class="container diesel-ul_container">
+                    <div class="start">
+                        <label for="diesel-ul_start2">Start</label>
+                        <input type="number" step="0.001" name="diesel-ul_start2" id="diesel-ul_start2">
+                    </div>
+
+                    <div class="end">
+                        <label for="diesel-ul_end2">End</label>
+                        <input type="number" step="0.001" name="diesel-ul_end2" id="diesel-ul_end2">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="breakdown">
+            <h2>Desglose</h2>
+
+            <h3>Entregas P</h3>
+            <input type="number" name="entregas" id="entregas">
+            <div class="cash">
+                <h3>Efectivo</h3>
+                <span>
+                    <label for="two-thousand">2,000</label>
+                    <input type="number" name="two-thousand" id="two-thousand">
+                </span>
+                <span class="thousand">
+                    <label for="thousand">1,000<label>
+                            <input type="number" name="thousand" id="thousand">
+                </span>
+                <span>
+                    <label for="five-hundred">500</label>
+                    <input type="number" name="five-hundred" id="five-hundred">
+                </span>
+                <span>
+                    <label for="two-hundred">200</label>
+                    <input type="number" name="two-hundred" id="two-hundred">
+                </span>
+                <span>
+                    <label for="hundred">100</label>
+                    <input type="number" name="hundred" id="hundred">
+                </span>
+
+                <span>
+                    <label for="fifty">50</label>
+                    <input type="number" name="fifty" id="fifty">
+                </span>
+
+                <span>
+                    <label for="twenty-five">25</label>
+                    <input type="number" name="twenty-five" id="twenty-five">
+                </span>
+
+                <span>
+                    <label for="ten">10</label>
+                    <input type="number" name="ten" id="ten">
+                </span>
+
+                <span>
+                    <label for="five">5</label>
+                    <input type="number" name="five" id="five">
+                </span>
+
+                <span>
+                    <label for="one">1</label>
+                    <input type="number" name="one" id="one">
+                </span>
+            </div>
+
+            <div class="cards">
+                <h3>Tarjetas</h3>
+                <span>
+                    <label for="cards">Tarjetas</label>
+                    <input type="number" step="0.001" name="cards" id="cards">
+                </span>
+
+                <span>
+                    <label for="magycards">Magycards</label>
+                    <input type="number" step="0.001" name="magycards" id="magycards">
+                </span>
+
+                <span>
+                    <label for="tickets">Bonos</label>
+                    <input type="number" name="tickets" id="tickets">
+                </span>
+
+                <span>
+                    <label for="lubricants">Lubricantes</label>
+                    <input type="number" name="lubricants" id="lubricants">
+                </span>
+
+                <span>
+                    <label for="recargas">Recargas</label>
+                    <input type="number" name="recargas" id="recargas">
+                </span>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button>PROCEDER</button>
+        </div>
+
+
+        <div class="total">
+            <span>TOTAL VENTAS: <strong id="total-v"></strong></span>
+            <span>TOTAL CUADRE: <strong id="total-c"></strong></span>
+            <span id="texto"></span>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
