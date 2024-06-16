@@ -25,7 +25,7 @@ main {
     }
 }
 input {
-    left: 20em;
+    left: 40%;
     position: absolute;
     width: 150px;
     display: inline-block;
