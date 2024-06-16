@@ -28,7 +28,7 @@ input {
     left: 20em;
     position: absolute;
     width: 150px;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .gasoline-r_container input {
